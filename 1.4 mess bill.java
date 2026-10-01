@@ -1,4 +1,4 @@
-
+class Boarder {
     String name; int days;
     Boarder(String n, int d) { name = n; days = d; }
     double bill() { return days * 85.0; }
